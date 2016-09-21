@@ -10,7 +10,7 @@ One of the accounts is a Swedish user using `SEK` as currency, and the other is 
 
 1. You need access to 2 different browsers, at least Chrome and IE 10 or 11.
 
-2. Go to: [http://qa.staging.kaboo.com](http://qa.staging.kaboo.com)
+2. Go to: branch for testing HERE
 
     ![credentials](images/kaboo/credentials.png)
 
