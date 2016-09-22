@@ -12,6 +12,4 @@
 * You can use frameworks and technologies by your choice, but the language for the microservices should be Javascript (node) or Go (or both).
 * The source code should be hosted online using github (or similar service)
 
-When you are done, send us a link to your repository on Github/Bitbucket (preferred) or email us your project as a zip.
-
 Note, if you want to shine you can include authentication, use any CI, container based deployment or whatever you think will grab our attention. This is your chance to impress us!
