@@ -1,6 +1,6 @@
 #The Core-Tech Challenge
 
-## Create two microservices for real time messages using websockets.
+## Create two microservices for real time messages using websockets, and at least one demo subscriber.
 
 ### Functionality
 1. The first service should listen for incoming messages through the websocket protocol and when a new one arrives, the message should be published into message queue
