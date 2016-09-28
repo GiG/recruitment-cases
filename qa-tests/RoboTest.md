@@ -24,7 +24,7 @@ b) Build automated tests, given some specs and adapting the Page Object accordin
 
 c) Surprise us with you skills with tricks to implement code and find bugs that we didn't even know yet!
 
-d) present the result of the tests in any html format (any tool you want) for easy reading
+d) present the result of the tests in HTML format (any tool you want) for easy reading
 
 *Scenario 1* - Check that the correct payment methods are displayed for Swedish registered users
 
