@@ -26,13 +26,15 @@ c) Surprise us with you skills with tricks to implement code and find bugs that 
 
 d) present the result of the tests in HTML format (any tool you want) for easy reading
 
+NOTE: The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, LET US KNOW WHERE and WHY :)
+
 *Scenario 1* - Check that the correct payment methods are displayed for Swedish registered users
 
 **Given** a swedish register user logs in (autosv)
 
 **When** clicks on the deposit button (portal/deposit)
 
-**Then** the deposit methods and its order should be Visa, Neteller, Trustly and Skrill
+**Then** the deposit **methods and order** should be Visa, Neteller, Trustly and Skrill
 
 ****
 
@@ -42,7 +44,7 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 **When** clicks on the deposit button (portal/deposit)
 
-**Then** the deposit methods and its order should be Visa, Neteller and Skrill
+**Then** the deposit **methods and order** should be Visa, Neteller and Skrill
 
 *****
 
