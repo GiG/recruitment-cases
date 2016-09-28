@@ -26,7 +26,7 @@ c) Surprise us with you skills with tricks to implement code and find bugs that 
 
 d) present the result of the tests in HTML format (any tool you want) for easy reading
 
-NOTE: The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, LET US KNOW WHERE and WHY :)
+**NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
 *Scenario 1* - Check that the correct payment methods are displayed for Swedish registered users
 
