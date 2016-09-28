@@ -38,7 +38,7 @@ d) present the result of the tests in any html format (any tool you want) for ea
 
 *Scenario 2* - Check that the correct payment methods are displayed for British registered users
 
-**Given** a swedish register user logs in (autosv)
+**Given** a British register user logs in (autouk)
 
 **When** clicks on the deposit button (portal/deposit)
 
