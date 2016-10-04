@@ -15,7 +15,7 @@ Also you will require access to the internet and the following details:
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
 
 ## The exercise
-In this task you are required to implement two e2e automated tests using the techonologies, url and accounts mentioned above so that the following BDD
+In this task you are required to implement two e2e automated test cases using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenarios are checked against the url. Note that the purpose of this test is to:
 
 a) Demonstrate your ability to understand Page Object model and take advantage on the E2E testing
