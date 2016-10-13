@@ -22,7 +22,7 @@ a) Demonstrate your ability to understand Page Object model and take advantage o
 
 b) Build automated tests, given some specs and adapting the Page Object accordingly so that bugs can be flagged
 
-c) Surprise us with you skills with tricks to implement code and find bugs that we didn't even know yet!
+c) Surprise us with your skills (tricks to implement code) and find bugs that we didn't even know yet!
 
 d) present the result of the tests in HTML format (any tool you want) for easy reading
 
