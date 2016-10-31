@@ -1,7 +1,8 @@
 ## Introduction
-You have been selected to show us how skillfull you are when it comes to automation.
+You have been selected to show us how skillfull you are when it comes to BDD specs and automation.
 In order to be able to complete this test, you will need to have some knowledge of the following:
 
+- BDD (https://en.wikipedia.org/wiki/Behavior-driven_development)
 - Selenium Webdriver (http://www.seleniumhq.org/projects/webdriver/)
 - Protractor (http://www.protractortest.org/#/)
 - Page Object Design/Model (https://www.thoughtworks.com/es/insights/blog/using-page-objects-overcome-protractors-shortcomings)
@@ -16,8 +17,26 @@ Also you will require access to the internet and the following details:
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
 
 ## The exercise
-In this task you are required to implement two e2e automated test cases using the techonologies, url and accounts mentioned above so that the following BDD
-(Behaviour driven development) Scenarios are checked against the url. Note that the purpose of this test is to:
+
+First of all, we would like to know how analytic your mind is when it comes to writing good and clear BDD specifications from a business requirement written in plain English.
+
+You need to transform the following business requirement into BDD, covering the full functionality of the feature:
+
+"As a User already playing a game on desktop I want to be able to play 2, 3 or 4 games at the same time in the same tab, as an addition to the default single one;
+
+- 3 buttons will be clickable to change between 1, 2 and 4 slots (the selected one highlighted)
+- in case of 2 games they should be placed in slots side by side (1x2)
+- in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
+- The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
+- any side panel should be collapsed when the 2 or 4 slots are selected.
+- The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the ADD button (example in design screenshots)
+- Users will be able to alter the game selected by clicking on the <-/-> button that appears when hovering over game
+
+https://files.slack.com/files-pri/T025XJ49L-F2W7HJHLM/selecting_games.png
+
+
+In the second task you are required to implement an e2e automated test case using the techonologies, url and accounts mentioned above so that the following BDD
+(Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
 
 a) Demonstrate your ability to understand Page Object model and take advantage on the E2E testing
 
@@ -38,16 +57,6 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 **Then** the deposit **methods and order** should be Visa, Neteller, Trustly and Skrill
 
 ****
-
-*Scenario 2* - Check that the correct payment methods are displayed for British registered users
-
-**Given** a British register user logs in (autouk)
-
-**When** clicks on the deposit button (portal/deposit)
-
-**Then** the deposit **methods and order** should be Visa, Neteller and Skrill
-
-*****
 
 ## Results
 
