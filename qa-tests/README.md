@@ -23,18 +23,21 @@ First of all, we would like to know how analytic your mind is when it comes to w
 You need to transform the following business requirement into BDD, covering the full functionality of the feature:
 
 ```
-As a User already playing a game on desktop I want to be able to play 2, 3 or 4 games at the same time in the same tab, as an addition to the default single one;
+As a User already playing a game on desktop I want to be able to play 2,
+3 or 4 games at the same time in the same tab, as an addition to the default single one;
 
-- 3 buttons will be clickable to change between 1, 2 and 4 slots (the selected one highlighted)
-- in case of 2 games they should be placed in slots side by side (1x2)
-- in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
-- The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
-- any side panel should be collapsed when the 2 or 4 slots are selected.
-- The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the ADD button (example in design screenshots)
-- Users will be able to alter the game selected by clicking on the <-/-> button that appears when hovering over game
+  - 3 buttons will be clickable to change between 1, 2 and 4 slots (the selected one highlighted)
+  - in case of 2 games they should be placed in slots side by side (1x2)
+  - in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
+  - The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
+  - any side panel should be collapsed when the 2 or 4 slots are selected.
+  - The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the 
+    ADD button (example in design screenshots)
+  - Users will be able to alter the game selected by clicking on the <-/-> button that 
+    appears when hovering over game
 ```
 
-In the second task you are required to implement an e2e automated test case using the techonologies, url and accounts mentioned above so that the following BDD
+In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
 
 a) Demonstrate your ability to understand Page Object model and take advantage on the E2E testing
@@ -59,7 +62,7 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 ## Results
 
-The results could be uploaded into a repository in Github and pass us the link.
+The results could be uploaded into a NEW and public repository in Github and include the link for us.
 
 Follow the indications in the email sent by HR too :)
 
