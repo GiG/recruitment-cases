@@ -34,8 +34,12 @@ As a User already playing a game on desktop I want to be able to play 2,
   - The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the 
     ADD button (example in design screenshots)
   - Users will be able to alter the game selected by clicking on the <-/-> button that 
-    appears when hovering over game
+    appears when hovering over the game slot
 ```
+
+![2 ways to add](https://cloud.githubusercontent.com/assets/12252960/19851973/dce8346e-9f60-11e6-8434-a87bb36793a8.png)
+![selecting games](https://cloud.githubusercontent.com/assets/12252960/19851980/e84d8d40-9f60-11e6-967d-bbb6dfe462c3.png)
+
 
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
