@@ -22,7 +22,8 @@ First of all, we would like to know how analytic your mind is when it comes to w
 
 You need to transform the following business requirement into BDD, covering the full functionality of the feature:
 
-"As a User already playing a game on desktop I want to be able to play 2, 3 or 4 games at the same time in the same tab, as an addition to the default single one;
+```
+As a User already playing a game on desktop I want to be able to play 2, 3 or 4 games at the same time in the same tab, as an addition to the default single one;
 
 - 3 buttons will be clickable to change between 1, 2 and 4 slots (the selected one highlighted)
 - in case of 2 games they should be placed in slots side by side (1x2)
@@ -31,9 +32,7 @@ You need to transform the following business requirement into BDD, covering the 
 - any side panel should be collapsed when the 2 or 4 slots are selected.
 - The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the ADD button (example in design screenshots)
 - Users will be able to alter the game selected by clicking on the <-/-> button that appears when hovering over game
-
-https://files.slack.com/files-pri/T025XJ49L-F2W7HJHLM/selecting_games.png
-
+```
 
 In the second task you are required to implement an e2e automated test case using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
@@ -60,4 +59,8 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 ## Results
 
-Follow the indications in the email
+The results could be uploaded into a repository in Github and pass us the link.
+
+Follow the indications in the email sent by HR too :)
+
+GOOD LUCK!
