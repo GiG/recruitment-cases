@@ -25,8 +25,9 @@ You need to transform the following business requirement into BDD, covering the 
 ```
 As a User already playing a game on desktop I want to be able to play 2,
 3 or 4 games at the same time in the same tab, as an addition to the default single one;
+Check out the designs. A matrix of 1x1 (1 game), 1x2 (2 games) or 2x2 (3 and 4 games) will be created on selecting the mode
 
-  - 3 buttons will be clickable to change between 1, 2 and 4 slots (the selected one highlighted)
+  - 3 buttons will be clickable to change between 1 (1x1), 2 (1x2) and 4 (2x2) slots. The selected one is highlighted
   - in case of 2 games they should be placed in slots side by side (1x2)
   - in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
   - The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
