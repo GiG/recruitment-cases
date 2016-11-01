@@ -31,7 +31,6 @@ Check out the designs. A matrix of 1x1 (1 game), 1x2 (2 games) or 2x2 (3 and 4 g
   - in case of 2 games they should be placed in slots side by side (1x2)
   - in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
   - The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
-  - any side panel should be collapsed when the 2 or 4 slots are selected.
   - The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the 
     ADD button (example in design screenshots)
   - Users will be able to alter the game selected by clicking on the <-/-> button that 
