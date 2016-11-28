@@ -12,7 +12,7 @@ Also you will require access to the internet and the following details:
 - url to test: http://qatest.staging.kaboo.com
 - credentials: in the email
 - account usernames: autosv / autouk 
-- password: autotest1 
+- password: Autotest1 
 
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
 
