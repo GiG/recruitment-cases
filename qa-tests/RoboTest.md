@@ -54,13 +54,13 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 **NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
-*Scenario 1* - Check that the correct payment methods are displayed for Swedish registered users
+*Scenario 1* - Check that the correct payment methods are displayed for British registered users
 
-**Given** a swedish register user logs in (autosv)
+**Given** a British registered user logs in (autouk / Autotest1)
 
-**When** clicks on the deposit button (portal/deposit)
+**When** clicks on the deposit button (thrills / flappybird)
 
-**Then** the deposit **methods and order** should be Visa, Neteller, Trustly and Skrill
+**Then** the deposit **methods and order** should be [Mastercard, Maestro, Visa, Paysafecard, Neteller and Skrill]
 
 ****
 
