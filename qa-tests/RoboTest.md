@@ -20,7 +20,7 @@ As you would have probably seen, there is a file called **kabooPageObject.js** w
 
 First of all, we would like to know how analytic your mind is when it comes to writing good and clear BDD specifications from a business requirement written in plain English.
 
-You need to transform the following business requirement into BDD, covering the full functionality of the feature:
+You need to transform the following business requirement + design into BDD, covering the full functionality of the feature. Can you see anything that is not covered by the business requirement but it is in the design?
 
 ```
 As a user I want to see my reward history (the ones I have obtained and claimed) in the Freebies Vault Section
@@ -30,8 +30,9 @@ the functionality would be:
   - Each token will display 1 characteristic thumbnail 
   - Only the last 8 tokens will be displayed
 ```
-This is the design template:
-https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png
+USE THIS DESIGN TO COMPLETE THE BDD SPECS:
+![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
+
 
 
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
