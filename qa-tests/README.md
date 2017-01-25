@@ -18,6 +18,7 @@ As you would have probably seen, there is a file called **kabooPageObject.js** w
 
 ## The exercise
 
+## 1. 
 First of all, we would like to know how analytic your mind is when it comes to writing good and clear BDD specifications from a business requirement written in plain English.
 
 You need to transform the following business requirement + design into BDD, covering the full functionality of the feature. Can you see anything that is not covered by the business requirement but it is in the design?
@@ -34,6 +35,7 @@ USE THIS DESIGN TO COMPLETE THE BDD SPECS:
 ![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
 
 
+## 2. 
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
 
