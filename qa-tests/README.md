@@ -20,23 +20,17 @@ As you would have probably seen, there is a file called **kabooPageObject.js** w
 
 First of all, we would like to know how analytic your mind is when it comes to writing good and clear BDD specifications from a business requirement written in plain English.
 
-You need to transform the following business requirement into BDD, covering the full functionality of the feature:
+You need to transform the following business requirement + design into BDD, covering the full functionality of the feature. Can you see anything that is not covered by the business requirement but it is in the design?
 
 ```
-As a User already playing a game on desktop I want to be able to play 2,
-3 or 4 games at the same time in the same tab, as an addition to the default single one;
-Check out the designs. A matrix of 1x1 (1 game), 1x2 (2 games) or 2x2 (3 and 4 games) will be created on selecting the mode
-
-  - 3 buttons will be clickable to change between 1 (1x1), 2 (1x2) and 4 (2x2) slots. The selected one is highlighted
-  - in case of 2 games they should be placed in slots side by side (1x2)
-  - in case of 3 or 4 games the screen should split horizontally and vertically, creating 4 slots (2x2)
-  - The game already open should stay open on the top left position when switching between 1, 2 and 4 slots.
-  - The user will be able to load 1, 2 or 3 extra games on the slots by clicking on the 
-    ADD button (example in design screenshots)
-  - Users will be able to alter the game selected by clicking on the <-/-> button that 
-    appears when hovering over game
+As a user I want to see my reward history (the ones I have obtained and claimed) in the Freebies Vault Section
+the functionality would be:
+  
+  - When user claims a reward (token) the "Your history" section will be displayed
+  - Each token will display 1 characteristic thumbnail 
+  - Only the last 8 tokens will be displayed
 ```
-
+USE THIS DESIGN TO COMPLETE THE BDD SPECS:
 ![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
 
 
