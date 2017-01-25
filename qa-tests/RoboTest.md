@@ -31,7 +31,7 @@ the functionality would be:
   - Only the last 8 tokens will be displayed
 ```
 This is the design template:
-
+https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png
 
 
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
