@@ -37,8 +37,7 @@ Check out the designs. A matrix of 1x1 (1 game), 1x2 (2 games) or 2x2 (3 and 4 g
     appears when hovering over game
 ```
 
-![2 ways to add](https://cloud.githubusercontent.com/assets/12252960/19851973/dce8346e-9f60-11e6-8434-a87bb36793a8.png)
-![selecting games](https://cloud.githubusercontent.com/assets/12252960/19851980/e84d8d40-9f60-11e6-967d-bbb6dfe462c3.png)
+![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
 
 
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
