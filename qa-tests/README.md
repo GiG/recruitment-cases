@@ -53,7 +53,7 @@ Scenario: 1-Check that the Kaboo signup is working properly
  When fills all fields with valid data on step 1
  And clicks NEXT
  And fills all fields with valid data from step 2
- Then register button is enable and clickable (edited)
+ Then register button is enable and clickable
  
 Scenario: 2-Check that the Kaboo login is working properly
  Given user is on /login page
