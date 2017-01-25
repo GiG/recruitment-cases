@@ -11,8 +11,6 @@ In order to be able to complete this test, you will need to have some knowledge 
 Also you will require access to the internet and the following details:
 - url to test: http://qatest.staging.kaboo.com
 - credentials: in the email
-- account usernames: autosv / autouk 
-- password: Autotest1 
 
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
 
@@ -49,15 +47,21 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 **NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
-*Scenario 1* - Check that the correct payment methods are displayed for British registered users
+```gherkin
+Scenario: 1-Check that the Kaboo signup is working properly
+ Given user is on /signup page
+ When fills all fields with valid data on step 1
+ And clicks NEXT
+ And fills all fields with valid data from step 2
+ Then register button is enable and clickable (edited)
+ 
+Scenario: 2-Check that the Kaboo login is working properly
+ Given user is on /login page
+ When fills username/password
+ And clicks Log in button
+ Then user should be redirected to account page
+```
 
-**Given** a British registered user logs in (autouk / Autotest1)
-
-**When** clicks on the deposit button (thrills / flappybird)
-
-**Then** the deposit **methods and order** should be [Mastercard, Maestro, Visa, Paysafecard, Neteller and Skrill]
-
-****
 
 ## Results
 
