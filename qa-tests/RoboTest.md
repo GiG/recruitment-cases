@@ -11,13 +11,12 @@ In order to be able to complete this test, you will need to have some knowledge 
 Also you will require access to the internet and the following details:
 - url to test: http://qatest.staging.kaboo.com
 - credentials: in the email
-- account usernames: autosv / autouk 
-- password: Autotest1 
 
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
 
-## The exercise
+## The exercises
 
+### 1
 First of all, we would like to know how analytic your mind is when it comes to writing good and clear BDD specifications from a business requirement written in plain English.
 
 You need to transform the following business requirement + design into BDD, covering the full functionality of the feature. Can you see anything that is not covered by the business requirement but it is in the design?
@@ -34,7 +33,7 @@ USE THIS DESIGN TO COMPLETE THE BDD SPECS:
 ![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
 
 
-
+### 2
 In the second and *BONUS* task you are required to implement an end2end automated test case using the techonologies, url and accounts mentioned above so that the following BDD
 (Behaviour driven development) Scenario is checked against the url. Note that the purpose of this test is to:
 
@@ -48,15 +47,21 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 
 **NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
-*Scenario 1* - Check that the correct payment methods are displayed for British registered users
+```gherkin
+Scenario: 1-Check that the Kaboo signup is working properly
+ Given user is on /signup page
+ When fills all fields with valid data on step 1
+ And clicks NEXT
+ And fills all fields with valid data from step 2
+ Then register button is enable and clickable (edited)
+ 
+Scenario: 2-Check that the Kaboo login is working properly
+ Given user is on /login page
+ When fills username/password
+ And clicks Log in button
+ Then user should be redirected to account page
+```
 
-**Given** a British registered user logs in (autouk / Autotest1)
-
-**When** clicks on the deposit button (thrills / flappybird)
-
-**Then** the deposit **methods and order** should be [Mastercard, Maestro, Visa, Paysafecard, Neteller and Skrill]
-
-****
 
 ## Results
 
@@ -65,3 +70,4 @@ The results could be uploaded into a NEW and public repository in Github and inc
 Follow the indications in the email sent by HR too :)
 
 GOOD LUCK!
+
