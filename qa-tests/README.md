@@ -48,14 +48,14 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 **NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
 ```gherkin
-Scenario: 1-Check that the Kaboo signup is working properly
+Scenario: 1-Check that the Kaboo signup is working properly 
  Given user is on /signup page
  When fills all fields with valid data on step 1
  And clicks NEXT
  And fills all fields with valid data from step 2
  Then register button is enable and clickable
  
-Scenario: 2-Check that the Kaboo login is working properly
+Scenario: 2-Check that the Kaboo login is working properly (user registered or use autouk / Autotest1 )
  Given user is on /login page
  When fills username/password
  And clicks Log in button
