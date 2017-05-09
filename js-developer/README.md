@@ -1,4 +1,4 @@
-#The JavaScript Challenge
+# The Gaming Innovation Group JavaScript Challenge
 
 ## Client Side Address Book
 Build a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) (SPA) address book using JavaScript, HTML and CSS.
@@ -17,16 +17,16 @@ Build a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_appl
 
 ### Other Requirements
 * Even though this is a small project, structure and architecture should mimic a large project.
-* The code should obviusly follow best practises (DRY, maintainable, tesable, etc.).
+* The code should obviusly follow best practises (DRY, maintainable, testable, etc.).
 * Feel free to depend on any frameworks/libraries you think is suitable using NPM/Bower.
 * We want the code you submit to be written by you, so don’t use skelletons/generators.
 * Make sure the application work on Node 5.x, NPM 3.x and in latest Chrome and Firefox.
 
-When you are done, send us a link to your repository on Github/Bitbucket (preferred) or email us your project as a zip. If you send it as a zip, please don’t include your NPM/Bower dependencies.
+When you are done, send us a link to your repository on Github/Bitbucket (preferred and much faster) through [this page](https://www.gaminginnovationgroup.com/careers/tech/javascript-developer/149276/) or [e-mail](&#109;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#114;&#x6f;&#x62;&#64;&#x62;&#101;&#x74;&#105;&#x74;&#x67;&#x72;&#x6f;&#117;&#112;&#46;&#99;&#111;&#109;) it directly to our CTO (not preferred, and much slower ;-).
 
 Note, this is where you get to shine — *show us what you’ve got!*
 
-### Tools We Use At Betit
+### Tools We Use At GIG Gaming:
 * [Angular](https://angularjs.org)
 * [Lodash](https://lodash.com)
 * [Node](https://nodejs.org)
