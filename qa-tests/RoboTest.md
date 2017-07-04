@@ -22,12 +22,19 @@ First of all, we would like to know how analytic your mind is when it comes to w
 You need to transform the following business requirement + design into BDD, covering the full functionality of the feature. Can you see anything that is not covered by the business requirement but it is in the design?
 
 ```
+FRONT-END
 As a user I want to see my reward history (the ones I have obtained and claimed) in the Freebies Vault Section
 the functionality would be:
   
   - When user claims a reward (token) the "Your history" section will be displayed
   - Each token will display 1 characteristic thumbnail 
   - Only the last 8 tokens will be displayed
+
+BACK-END (JSON object)
+a) By using the method `/igc/betspin/rewards/history` with only 1 param `userName`, we will get a JSON with an array of unique tokens claimed by that user.
+b) Each unique token claimed could have been claimed more than once (sub-array objects)
+c) The following info will be contained for each sub-array object: game-slug,date claimed, info, reason, expiry date.
+d) The response will be in chronological order in the array and sub-array.
 ```
 USE THIS DESIGN TO COMPLETE THE BDD SPECS:
 ![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
@@ -48,7 +55,7 @@ d) present the result of the tests in HTML format (any tool you want) for easy r
 **NOTE:** The automation test exists in order to find bugs, so don't be afraid if one of the tests fails. But when it fails, let us know WHERE and WHY :)
 
 ```gherkin
-Scenario: 1-Check that the Kaboo signup is working properly
+Scenario: 1-Check that the Kaboo signup is working properly 
  Given user is on /signup page
  When fills all fields with valid data on step 1
  And clicks NEXT
@@ -70,4 +77,3 @@ The results could be uploaded into a NEW and public repository in Github and inc
 Follow the indications in the email sent by HR too :)
 
 GOOD LUCK!
-
