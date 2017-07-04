@@ -32,8 +32,8 @@ the functionality would be:
 
 BACK-END (JSON object)
 a) By using the method `/igc/betspin/rewards/history` with only 1 param `userName`, we will get a JSON with an array of unique tokens claimed by that user.
-b) Each unique token claimed could have been claimed more than once (sub-array)
-c) The following info will be contained for each sub-array element: game-slug,date claimed, info, reason, expiry date.
+b) Each unique token claimed could have been claimed more than once (sub-array objects)
+c) The following info will be contained for each sub-array object: game-slug,date claimed, info, reason, expiry date.
 d) The response will be in chronological order in the array and sub-array.
 ```
 USE THIS DESIGN TO COMPLETE THE BDD SPECS:
