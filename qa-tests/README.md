@@ -39,7 +39,7 @@ c) The following info will be contained for each sub-array object: game-slug,dat
 d) The response will be in chronological order in the array and sub-array.
 ```
 USE THIS DESIGN TO COMPLETE THE BDD SPECS:
-![reward History](https://github.com/betit/recruitment-cases/blob/master/qa-tests/reward%20H.png)
+![image](https://user-images.githubusercontent.com/12252960/28772797-90d20164-75e7-11e7-987c-8bee2a343025.png)
 
 
 ### 2
