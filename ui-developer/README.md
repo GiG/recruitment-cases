@@ -54,6 +54,6 @@ Your mission, should you choose to accept it:
 4. We will see which tools you use, and how you use them.
 
 ## Assets
-[Click here to download photoshop files](https://www.dropbox.com/s/rf7qttpcznmtpw4/assets.zip?dl=0)
+[Click here to download photoshop files](https://www.dropbox.com/s/2psclhfbpcpe2og/assets.zip?dl=0)
 
 **Good Luck! :-)**
