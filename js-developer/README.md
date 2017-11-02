@@ -28,6 +28,7 @@ Note, this is where you get to shine — *show us what you’ve got!*
 
 ### Tools We Use At GIG Gaming:
 * [Angular](https://angularjs.org)
+* [React](https://reactjs.org/)
 * [Lodash](https://lodash.com)
 * [Node](https://nodejs.org)
 * [Gulp](http://gulpjs.com)
