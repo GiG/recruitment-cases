@@ -9,7 +9,7 @@ In order to be able to complete this test, you will need to have some knowledge 
 - JavaScript
 
 Also you will require access to the internet and the following details:
-- url to test: http://qatest.staging.kaboo.com
+- url to test: https://qatest.staging.kaboo.com
 - credentials: in the email
 
 As you would have probably seen, there is a file called **kabooPageObject.js** which contains the page object that you will need to use for your implementation. There are different methods and variables, but please feel free to add methods if you require them.
