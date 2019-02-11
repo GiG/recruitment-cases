@@ -16,27 +16,12 @@ Build a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_appl
 * Country (dropdown, required) - use the [country-list](https://www.npmjs.com/package/country-list) module to populate the list
 
 ### Other Requirements
-* Even though this is a small project, structure and architecture should mimic a large project.
-* The code should obviusly follow best practises (DRY, maintainable, testable, etc.).
-* Feel free to depend on any frameworks/libraries you think is suitable using NPM/Bower.
-* We want the code you submit to be written by you, so don’t use skelletons/generators.
-* Make sure the application work on Node 5.x, NPM 3.x and in latest Chrome and Firefox.
+We want to see what you are capable of and this is why we are giving you a lot of freedom to approach the challenge. We not only want to see your code but also your technical assesment of the problem, architectural decision making and technology choices. Please keep the following in mind.
 
-When you are done, send us a link to your repository on Github/Bitbucket (preferred and much faster) through [this page](https://www.gaminginnovationgroup.com/careers/tech/javascript-developer/149276/) or [e-mail](&#109;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#114;&#x6f;&#x62;&#64;&#x62;&#101;&#x74;&#105;&#x74;&#x67;&#x72;&#x6f;&#117;&#112;&#46;&#99;&#111;&#109;) it directly to our CTO (not preferred, and much slower ;-).
+* Even though this is a small project, **structure and architecture should mimic a large project**.
+* The code should obviously follow best practises (DRY, maintainable, testable, etc.).
+* Feel free to depend on any frameworks/libraries you think is suitable using NPM.
+* We want the code you submit to be written by you, so don’t use skelletons/generators.
+* Make sure the application works on Node 10.x, NPM 6.x and in latest Chrome and Firefox.
 
 Note, this is where you get to shine — *show us what you’ve got!*
-
-### Tools We Use At GIG Gaming:
-* [Angular](https://angularjs.org)
-* [React](https://reactjs.org/)
-* [Lodash](https://lodash.com)
-* [Node](https://nodejs.org)
-* [Gulp](http://gulpjs.com)
-* [Browserify](http://browserify.org)
-* [Babel](https://babeljs.io)
-* [ESLint](http://eslint.org)
-* [Uglify](https://github.com/mishoo/UglifyJS)
-* [Stylus](http://stylus-lang.com)
-* [Karma](https://karma-runner.github.io)
-* [Jasmine](https://jasmine.github.io)
-* [and others...](http://stackshare.io/betit-group/betit-group)
