@@ -27,7 +27,7 @@ Your mission, should you choose to accept it:
 1. Create a single html/css version of the three screens, fully responsive and hdpi ready (retina).
 2. The desktop version should use custom dropdowns, as in the design.
 3. The mobile and tablet version should trigger native form inputs.
-4. Use angular.js to add fitting form validations. Validations can be found in the desktop version
+4. Use JS to add fitting form validations. Validations can be found in the desktop version
 
   - First Name got success
   - Address got error
