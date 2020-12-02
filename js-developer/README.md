@@ -1,7 +1,7 @@
 # The Gaming Innovation Group JavaScript Challenge
 
 ## Client Side Address Book
-Build a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) (SPA) address book using JavaScript, HTML and CSS.
+Build a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) (SPA) address book using Vue.js & Typescript, HTML and CSS.
 
 ### Functionality
 1. There should be one view where all contacts are listed.
